@@ -1,0 +1,151 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    width: 100%;
+    height: 100vh;
+}
+
+h1
+{
+    clear: left;
+    text-align: center;
+    color: white;
+    width: 40%;
+    border-color:white;
+    border-style: solid;
+    border-radius: 20px;
+    margin-left:30%;
+
+}
+
+body
+{
+    width:100%;
+    height: 100vh;
+    background-image: url("mon-oda.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:bottom;
+    background-size: contain;
+    background-color: rgb(223, 223, 47);
+    color: white;
+}
+
+.trans-box
+{
+    background-color: rgba(0,0,0, 0.75);
+    height: 100%;
+    width: 100%;
+}
+
+article
+{
+    padding-top:10px;
+    width: 60%;
+    margin-left: 20%;
+    border-color: white;
+    border-style: solid;
+    height: 90%;
+    margin-top: 5px;
+    overflow-y: auto;
+}
+
+section
+{
+    margin-left: 3%;
+    width: 95%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-bottom: 2px;
+    clear: left;
+    float: left;
+    margin-bottom: 5px;
+    width: 17%;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3em;
+}
+
+.arrow1
+{
+    height: 26px;
+    width:26px;
+    background-image: url("warrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: rotate(0deg);
+}
+
+.arrow2
+{   height: 26px;
+    width: 26px;
+    background-image: url("warrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: rotate(90deg);
+}
+
+#links
+{
+    float: left;
+    clear: left;
+    border-color: transparent;
+    border-style: solid;
+    color: white;
+    width: 17%;
+}
+
+li
+{
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.3em;
+    list-style: none;
+
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: white;
+}
+
+ul
+{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#pic1
+{
+    background-image: url("nobunaga.jpg");
+    height: 241px;
+    width: 220px;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-bottom: 10px;
+}
